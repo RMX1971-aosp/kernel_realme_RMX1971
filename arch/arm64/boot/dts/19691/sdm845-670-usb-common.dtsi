@@ -127,6 +127,7 @@
 
 		qcom,efuse-bit-pos = <25>;
 		qcom,efuse-num-bits = <3>;
+		status = "disabled";
 		vdd-supply = <&pm8998_l1>;
 		vdda18-supply = <&pm8998_l12>;
 		vdda33-supply = <&pm8998_l24>;
